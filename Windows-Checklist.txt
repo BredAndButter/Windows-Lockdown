@@ -1,0 +1,34 @@
+### Checklist ###
+
+-Run Windows Lockdown
+	-This will also open the windows security settings, family user settings, and security policies
+
+-Check Windows Security Settings
+	-Set everything to max security
+
+-Check Family User Settings
+	-Make sure that the right accounts are on the system with the right permissions (Admin or not)
+
+-Check Security Policies
+	-Windows Lockdown should have fixed most of this, just double check
+
+-Make Sure Firefox and Notepad++ Is Installed
+	-Sometimes Notepad++ isn't needed, just make sure
+
+-Set Firefox Privacy Settings To Max
+	-Check for updates/automatically install updates
+	-Strict mode
+	-Do not track to always
+	-Set to delete cookies and clear any existing ones
+	-Turn autofill passwords off
+	-Block and warn pop ups
+	-Block and warn dangerous content
+	-Don't allow data collection
+
+-Show Hidden Files
+	-You can double check for media and supisicous files/folders
+
+-Remove Music Players (ITunes/Spotify) And CCleaner (Unless Otherwise Denoted)
+
+
+***DOUBLE CHECK***

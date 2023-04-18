@@ -1,3 +1,6 @@
+REM CyberPatriot Windows Lockdown
+REM Created by Luke Henderson - Civil Air Patrol
+
 @echo off
 color 0a
 
@@ -37,6 +40,9 @@ REM Set Power Settings
 powercfg -SETDCVALUEINDEX SCHEME_BALANCED SUB_NONE CONSOLELOCK 1
 powercfg -SETDCVALUEINDEX SCHEME_MIN SUB_NONE CONSOLELOCK 1
 powercfg -SETDCVALUEINDEX SCHEME_MAX SUB_NONE CONSOLELOCK 1
+
+REM Stop Sharing Files
+net use * /delete
 
 REM Find Files
 echo Flashing Disk to .flashed Files to reference....
@@ -84,7 +90,6 @@ findstr .avi users.flashed >NUL
 if %errorlevel%==0 where /r c:\Users\ *.avi >> media_video
 findstr .mpeg4 users.flashed >NUL
 if %errorlevel%==0 where /r c:\Users\ .mpeg4 >> media_video
-REM BREAKLINE
 findstr .gif users.flashed >NUL
 if %errorlevel%==0 where /r c:\Users\ *.gif >> media_pics
 findstr .png users.flashed >NUL
