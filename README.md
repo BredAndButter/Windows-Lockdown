@@ -4,7 +4,7 @@ Automatic securing of a Windows machine. Made for CyberPatriot competitions and 
 # What It Does
 A culmination of multiple scripts plus more found throughout the internet designed to lock down Windows 10 as securely as possible.
 
-** Updates Windows + sets auto updates **
+**Updates Windows + sets auto updates**
 
 **Turns on firewall + optimal settings
 
