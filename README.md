@@ -37,4 +37,4 @@ A culmination of multiple scripts plus more found throughout the internet design
 **Turns on a multitude of miscellaneous security settings
 
 # How To Run
-Simply download and run the script
+Simply download and run the script.
